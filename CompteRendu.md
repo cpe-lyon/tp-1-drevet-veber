@@ -123,7 +123,7 @@
 <br>*5 premières lignes*
 <br><br>
 	\> `tail -15 /var/log/syslog`
-*15 dernières lignes*
+<br>*15 dernières lignes*
 <br><br>
 	\> `sed -n "10, 20p" /var/log/syslog`
 <br>ou encore
@@ -200,6 +200,6 @@
 4. Dans ce fichier, la ligne définissant la couleur devient :
 <br>`PS1='${debian_chroot:+($debian_chroot)}\[\033[35m\][\A] \[\033[00m\]]- \[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[36m\]\w\[\033[00m\]\$`
 <br>où `\[\033[35m\][\A]` ajoute l'heure entre crochets en violet, ` \[\033[00m\]- ` affiche un tiret "normal" et `\[\033[36m\]\w` affiche le chemin du dossier courant en cyan
-
+<br><br>
 ##### DREVET Yoann
 ##### VEBER Vincent
