@@ -5,8 +5,8 @@
 ### Manuel
 
 1. \> `man which`
-La commande `which` permet de "localiser" une commande : elle renvoie le chemin des fichiers qui seront exécutés si l'on entrait la commande.
-Par exemple : `which ping` renvoie `/usr/bin/ping`.
+<br>La commande `which` permet de "localiser" une commande : elle renvoie le chemin des fichiers qui seront exécutés si l'on entrait la commande.
+<br>Par exemple : `which ping` renvoie `/usr/bin/ping`.
 
 2. \> `man which`
 \> `/option`
